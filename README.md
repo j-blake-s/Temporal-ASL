@@ -42,8 +42,7 @@ The event data is generated directly from consecutive RGB video frames using tem
 To lighten computational load we opted to reduce the dimensions of the event data using **3D Max Pooling**. The max pooling layers are applied across the spatial and temporal axes.
 * **Spatial Pooling ($H \times W$):** Downsamples the spatial resolution by a factor of 2 ($480 \times 640 \rightarrow 240 \times 320$).
 * **Temporal Pooling ($T$):** Downsamples the sequence length by a factor of 2 ($90 \rightarrow 45$ bins), preserving the strongest spike activations across consecutive time intervals while maintaining event sparsity.
-
-
+> **Note:** Both the original resolution data and the downsampled versions are included in the official dataset distribution.
 
 ## Dataset Structure & Splits
 
