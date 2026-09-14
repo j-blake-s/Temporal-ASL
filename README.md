@@ -84,4 +84,25 @@ TemporalASL/
     │   └── ...
     └── dvs/
         └── ...
+```
 
+## Citation
+
+If you use the **Temporal-ASL** dataset or find this code useful in your research, please cite our ICONS 2026 paper:
+
+```bibtex
+@inproceedings{10.1145/3822454.3822458,
+  author = {Seekings, James and Chandarana, Peyton and Eslami, Arshia and Zand, Ramtin},
+  title = {Challenging the Spatiotemporal Processing of Neuromorphic Models through a Temporally-Rich Event-Based Dataset},
+  year = {2026},
+  isbn = {9798400728082},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {[https://doi.org/10.1145/3822454.3822458](https://doi.org/10.1145/3822454.3822458)},
+  doi = {10.1145/3822454.3822458},
+  booktitle = {Proceedings of the International Conference on Neuromorphic Systems},
+  pages = {210--217},
+  numpages = {8},
+  keywords = {Neuromorphic Computing, Neuromorphic Dataset, Spatiotemporal Feature Learning, Sign Language Recognition},
+  series = {ICONS '26}
+}
